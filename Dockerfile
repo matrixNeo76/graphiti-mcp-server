@@ -1,3 +1,3 @@
 FROM falkordb/graphiti-knowledge-graph-mcp:latest
 ENV PORT=8000
-CMD ["graphiti-mcp-server"]
+CMD ["python3", "-m", "graphiti_mcp.server"]
